@@ -1,5 +1,6 @@
 Based on the GUN library, built with svelte
 This project is only for (my) educational purposes.
+=======
 
 ---
 ## Links
@@ -11,4 +12,3 @@ This project is only for (my) educational purposes.
 git clone <this-repo>
 npm install
 npm run dev
-```
