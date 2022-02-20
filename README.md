@@ -1,4 +1,5 @@
 Based on the GUN library, built with svelte
+This project is only for (my) educational purposes.
 
 ---
 ## Links
