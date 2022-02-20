@@ -1,0 +1,166 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #999;
+	background-color: #A9A9A9;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	align-items: center;
+	align-self: center;
+	min-width: 30vh;
+	max-width: 50vh;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+.app {
+	text-align: center;
+	max-width: 728px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #181717;
+	height: 10vh;
+	margin-top: 10vh;
+	min-height: 50px;
+	color: white;
+	position: fixed;
+	width: 100%;
+	max-width: 728px;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 99;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 19vh;
+	height: 50vh;
+	min-height: 9vh;
+	background-color: #333;
+}
+
+main {
+	height: 80vh;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+	width: 0.25rem;
+}
+  
+main::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+
+form {
+	height: 8vh;
+	position: fixed;
+	bottom: 0;
+	background-color: rgb(24, 23, 23);
+	margin-bottom: 19vh;
+	width: 100%;
+	max-width: 728px;
+	display: flex;
+	font-size: 1.5rem;
+	align-items: center;
+}
+
+time {
+	font-size: 0.7rem;
+	margin: 0 1rem;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  margin: 2px 5px;
+}
+
+.message {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	word-wrap:break-word;
+}
+  
+.message:last-child {
+	margin-bottom: 20px;
+}
+  
+.sent {
+	flex-direction: row-reverse;
+}
+  
+.sent p {
+	align-self: flex-end;
+	text-align: right;
+}
+.received p {
+	text-align: left;
+}
+
+
