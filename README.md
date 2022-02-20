@@ -1,7 +1,7 @@
+P2P Chat App
+=======
 Based on the GUN library, built with svelte
 This project is only for (my) educational purposes.
-=======
-
 ---
 ## Links
   -Live version comming soon
