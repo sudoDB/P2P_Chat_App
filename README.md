@@ -12,3 +12,4 @@ This project is only for (my) educational purposes.
 git clone <this-repo>
 npm install
 npm run dev
+```

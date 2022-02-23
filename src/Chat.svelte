@@ -56,8 +56,8 @@
 
         <!--Message input-->
         <form on:submit|preventDefault={sendMessage}>
-            <input type="text" placeholder="Message goes here..." bind:value={newMessage} maxlength="100" />
-            <button type="submit" disabled={!newMessage}>Send</button>
+            <input class="text-input" type="text" placeholder="Message goes here..." bind:value={newMessage} maxlength="100" />
+            <button class="send-button" type="submit" disabled={!newMessage}>Send</button>
         </form>
     {:else}
         <main>
